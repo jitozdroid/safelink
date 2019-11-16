@@ -86,7 +86,7 @@ function showurl(datajson){
 		}
 		if (checkpengecualian == false || checkhanyauntuk == true) {
 			linktag[i].href = links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href), convertstr('root'));
-			linktag[i].target = "_blank";
+		
 		}
 	}
 } 
